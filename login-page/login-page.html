@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login-page.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="header-section">
+      <p class="header">Login</p>
+    </div>
+    <div class="inputs-container">
+      <p class="text">Username</p>
+      <div class="relative-container">
+        <input class="input js-username-input" placeholder="Type your username" type="text">
+        <div class="absolute-container">
+          <img class="icon" src="icons/user.png" alt="">
+        </div>
+      </div>
+      <p class="text">Password</p>
+      <div class="relative-container">
+        <input class="input js-password-input" placeholder="Type your password" type="password">
+        <div class="absolute-container">
+          <img class="icon" src="icons/lockpng.png" alt="">
+        </div>
+      </div>
+      <div class="forgot-password-section">
+        <p class="text forgot-option">Forgot password?</p>
+      </div>
+    </div>
+    <div class="message-container">
+      <p class="message">Incorrect username or password.</p>
+    </div>
+    <div class="login-button-container">
+      <button class="login-button js-login-button">LOGIN</button>
+    </div>
+    <div class="other-options-container">
+      <p class="signup-options-text">Or Sign Up Using</p>
+      <div>
+        <img class="logo" src="images/twitter.png" alt="">
+        <img class="logo" src="images/google.png" alt="">
+        <img class="logo" src="images/facebook.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <script src="login-page.js"></script>
+</body>
+</html>
